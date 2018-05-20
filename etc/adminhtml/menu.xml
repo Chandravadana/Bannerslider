@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../Backend/etc/menu.xsd">
+    <menu>
+        <add id="Chandu_Bannerslider::main_menu" title="Banner Slider"
+             module="Chandu_Bannerslider" sortOrder="20"
+             resource="Chandu_Bannerslider::bannerslider" />
+        <add id="Chandu_Bannerslider::manage_banners" title="Manage Banners"
+             module="Chandu_Bannerslider" sortOrder="1" parent="Chandu_Bannerslider::main_menu"
+             action="bannerslider/slider/index" resource="Chandu_Bannerslider::manage_banners" />
+    </menu>
+</config>
