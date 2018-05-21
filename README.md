@@ -8,11 +8,15 @@ add/edit/delete/ banners.
 
 **Compability:** Magento 2.2.x 
 
-**How to Install**
- 1. Clone this repo under Chandu/Bannerslider directory
- 2. Run command in your M2 root directory 
+**How to Install Using Composer**
+ 1. Go to your Magento Installtion Direction
+ 2. Run the below composer command
+ ```sh
+ composer require chandu/bannerslider
+ ```
+ 3. Run command in your M2 root directory 
      - bin/magento module:enabled Chandu_Bannerslider
- 3. Then run these command
+ 4. Then run these command
  ```sh
  $ bin/magento setup:upgrade
  $ bin/magento setup:di:compile
