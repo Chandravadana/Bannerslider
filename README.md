@@ -15,7 +15,9 @@ add/edit/delete/ banners.
  composer require chandu/bannerslider
  ```
  3. Run command in your M2 root directory 
-     - bin/magento module:enabled Chandu_Bannerslider
+ ```sh
+ $ bin/magento module:enable Chandu_Bannerslider
+ ```
  4. Then run these command
  ```sh
  $ bin/magento setup:upgrade
