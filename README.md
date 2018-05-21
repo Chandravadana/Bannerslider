@@ -6,7 +6,7 @@ add/edit/delete/ banners.
 3. Admin can upload image and provide a hyperlink to that image for any banner added.
 4. This module provides a facility to add banner to any page or static block.
 
-**Compability:** Magento 2.x.x 
+**Compability:** Magento 2.2.x 
 
 **How to Install**
  1. Clone this repo under Chandu/Bannerslider directory
