@@ -14,6 +14,6 @@
         "psr-4": {
             "Chandu\\Bannerslider\\": ""
         }
-    }
+    },
     "license": "GPL-3.0-or-later"
 }
